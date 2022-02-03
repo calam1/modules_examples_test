@@ -1,3 +1,6 @@
+#[cfg(test)]
+mod some_structure_tests;
+
 pub struct SomeStructure {
     value: i32,
 }
